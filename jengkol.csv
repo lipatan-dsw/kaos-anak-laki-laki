@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071 Murah,cps-071,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Kaos Raglan 3/4 Anak Laki-Laki - CPS 052 Murah,cps-052,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071 Murah,cps-07
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071 Murah,cps-07
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 071<br/>Warna : BIRU<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Raglan 3/4 Anak Laki-Laki - CPS 052 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 052<br/>Warna : ABU MISTY<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071 Murah,cps-07
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-071.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 071,Rp 81.900,Rp 94.900,Rp 13.000,CPS 071,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069 Murah,cps-069,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna ABU MISTY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-052.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Raglan 3/4 Anak Laki-Laki - CPS 052,Rp 104.900,Rp 84.900,Rp 93.900,CPS 052,Baru
+Jual Kaos Casual Anak Laki-Laki - CPS 049 Murah,cps-049,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 069<br/>Warna : KUNING<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Anak Laki-Laki - CPS 049 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 049<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna KUNING",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-069.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 069,Rp 73.900,Rp 84.900,Rp 11.000,CPS 069,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067 Murah,cps-067,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU NAVY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-049.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Anak Laki-Laki - CPS 049,Rp 96.900,Rp 78.900,Rp 86.900,CPS 049,Baru
+Jual Kaos Casual Anak Laki-Laki - CPS 058 Murah,cps-058,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 067<br/>Warna : BIRU<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Anak Laki-Laki - CPS 058 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 058<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-067.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 067,Rp 73.900,Rp 84.900,Rp 11.000,CPS 067,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072 Murah,cps-072,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna HITAM, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-058.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Anak Laki-Laki - CPS 058,Rp 96.900,Rp 78.900,Rp 86.900,CPS 058,Baru
+Jual Kaos Raglan 3/4 Anak Laki-Laki - CPS 063 Murah,cps-063,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072 Murah,cps-07
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072 Murah,cps-07
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 072<br/>Warna : BIRU<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Raglan 3/4 Anak Laki-Laki - CPS 063 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 063<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,8 +246,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072 Murah,cps-07
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-072.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 072,Rp 81.900,Rp 94.900,Rp 13.000,CPS 072,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065 Murah,cps-065,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna PUTIH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-063.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Raglan 3/4 Anak Laki-Laki - CPS 063,Rp 96.900,Rp 78.900,Rp 86.900,CPS 063,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 079 Murah,cps-079,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -272,7 +272,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -295,7 +295,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 065<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 079 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 079<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -308,8 +308,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-065.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 065,Rp 77.900,Rp 89.900,Rp 12.000,CPS 065,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070 Murah,cps-070,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU NAVY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-079.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 079,Rp 102.900,Rp 83.900,Rp 91.900,CPS 079,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 075 Murah,cps-075,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -334,7 +334,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070 Murah,cps-07
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -357,7 +357,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070 Murah,cps-07
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 070<br/>Warna : MERAH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 075 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 075<br/>Warna : ORANGE<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -370,8 +370,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070 Murah,cps-07
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-070.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 070,Rp 73.900,Rp 84.900,Rp 11.000,CPS 070,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066 Murah,cps-066,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna ORANGE, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-075.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 075,Rp 102.900,Rp 83.900,Rp 91.900,CPS 075,Baru
+Jual Kaos Casual Anak Laki-Laki - CPS 059 Murah,cps-059,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -396,7 +396,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -419,7 +419,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 066<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Anak Laki-Laki - CPS 059 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 059<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -432,8 +432,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-066.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 066,Rp 73.900,Rp 84.900,Rp 11.000,CPS 066,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059 Murah,cps-059,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna HITAM, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-059.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Anak Laki-Laki - CPS 059,Rp 102.900,Rp 83.900,Rp 91.900,CPS 059,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 069 Murah,cps-069,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -458,7 +458,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059 Murah,cps-05
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -481,7 +481,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059 Murah,cps-05
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 059<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 069 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 069<br/>Warna : KUNING<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -494,8 +494,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059 Murah,cps-05
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-059.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 059,Rp 78.900,Rp 90.900,Rp 12.000,CPS 059,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056 Murah,cps-056,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna KUNING, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-069.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 069,Rp 96.900,Rp 78.900,Rp 86.900,CPS 069,Baru
+Jual Kaos Casual Anak Laki-Laki - CPS 007 Murah,cps-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -520,7 +520,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056 Murah,cps-05
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -543,7 +543,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056 Murah,cps-05
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 056<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Anak Laki-Laki - CPS 007 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 007<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -556,8 +556,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056 Murah,cps-05
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-056.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 056,Rp 73.900,Rp 84.900,Rp 11.000,CPS 056,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068 Murah,cps-068,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-007.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Anak Laki-Laki - CPS 007,Rp 96.900,Rp 78.900,Rp 86.900,CPS 007,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 076 Murah,cps-076,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -582,7 +582,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -605,7 +605,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 068<br/>Warna : ABU MISTY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 076 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 076<br/>Warna : TOSKA<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -618,8 +618,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-068.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 068,Rp 73.900,Rp 84.900,Rp 11.000,CPS 068,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064 Murah,cps-064,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna TOSKA, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-076.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 076,Rp 102.900,Rp 83.900,Rp 91.900,CPS 076,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 074 Murah,cps-074,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -644,7 +644,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -667,7 +667,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 064<br/>Warna : ABU MISTY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 074 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 074<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -680,8 +680,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-064.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 064,Rp 73.900,Rp 84.900,Rp 11.000,CPS 064,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062 Murah,cps-062,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna PUTIH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-074.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 074,Rp 102.900,Rp 83.900,Rp 91.900,CPS 074,Baru
+Jual Kaos Panjang Anak Laki-Laki - CPS 077 Murah,cps-077,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -706,7 +706,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -729,7 +729,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 062<br/>Warna : BIRU NAVY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Panjang Anak Laki-Laki - CPS 077 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 077<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -742,8 +742,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-062.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 062,Rp 73.900,Rp 84.900,Rp 11.000,CPS 062,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007 Murah,cps-007,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-077.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Panjang Anak Laki-Laki - CPS 077,Rp 102.900,Rp 83.900,Rp 91.900,CPS 077,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 073 Murah,cps-073,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -768,7 +768,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007 Murah,cps-00
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -791,7 +791,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007 Murah,cps-00
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 007<br/>Warna : BIRU<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 073 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 073<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -804,8 +804,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007 Murah,cps-00
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-007.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 007,Rp 73.900,Rp 84.900,Rp 11.000,CPS 007,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061 Murah,cps-061,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna PUTIH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-073.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 073,Rp 102.900,Rp 83.900,Rp 91.900,CPS 073,Baru
+Jual Kaos Kerah Anak Laki-Laki - CPL 104 Murah,cpl-104,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -830,7 +830,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -853,7 +853,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 061<br/>Warna : TOSKA<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Kerah Anak Laki-Laki - CPL 104 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 104<br/>Warna : ABU MISTY<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -866,8 +866,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna TOSKA",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-061.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 061,Rp 73.900,Rp 84.900,Rp 11.000,CPS 061,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054 Murah,cps-054,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Warna ABU MISTY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-104.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Kerah Anak Laki-Laki - CPL 104,Rp 102.900,Rp 83.900,Rp 91.900,CPL 104,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPL 108 Murah,cpl-108,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -892,7 +892,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054 Murah,cps-05
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -915,7 +915,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054 Murah,cps-05
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 054<br/>Warna : MERAH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPL 108 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 108<br/>Warna : ABU MISTY<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -928,8 +928,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054 Murah,cps-05
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-054.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 054,Rp 75.900,Rp 87.900,Rp 12.000,CPS 054,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060 Murah,cps-060,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Warna ABU MISTY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-108.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPL 108,Rp 109.900,Rp 89.900,Rp 98.900,CPL 108,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPL 107 Murah,cpl-107,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -954,7 +954,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060 Murah,cps-06
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -977,7 +977,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060 Murah,cps-06
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 060<br/>Warna : CREAM COKLAT<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPL 107 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 107<br/>Warna : MERAH<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -990,8 +990,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060 Murah,cps-06
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna CREAM COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-060.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 060,Rp 73.900,Rp 84.900,Rp 11.000,CPS 060,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010 Murah,cps-010,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Warna MERAH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-107.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPL 107,Rp 109.900,Rp 89.900,Rp 98.900,CPL 107,Baru
+Jual Kaos Pendek Anak Laki-Laki - CPS 078 Murah,cps-078,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1016,7 +1016,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010 Murah,cps-01
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1039,7 +1039,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010 Murah,cps-01
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 010<br/>Warna : ABU MISTY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Pendek Anak Laki-Laki - CPS 078 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 078<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1052,8 +1052,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010 Murah,cps-01
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-010.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 010,Rp 73.900,Rp 84.900,Rp 11.000,CPS 010,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104 Murah,cpl-104,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna PUTIH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-078.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Pendek Anak Laki-Laki - CPS 078,Rp 102.900,Rp 83.900,Rp 91.900,CPS 078,Baru
+Jual Kaos Panjang Anak Laki-Laki - CPS 080 Murah,cps-080,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1078,7 +1078,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104 Murah,cpl-10
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1101,7 +1101,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104 Murah,cpl-10
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan LACOSTE.<br/>Kode : CPL 104<br/>Warna : ABU MISTY<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Panjang Anak Laki-Laki - CPS 080 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 080<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1114,8 +1114,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104 Murah,cpl-10
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Ukuran 2 ~ 8, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-104.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 104,Rp 78.900,Rp 90.900,Rp 12.000,CPL 104,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101 Murah,cpl-101,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna PUTIH, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-080.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Panjang Anak Laki-Laki - CPS 080,Rp 104.900,Rp 84.900,Rp 93.900,CPS 080,Baru
+Jual Kaos Panjang Anak Laki-Laki - CPS 081 Murah,cps-081,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1140,7 +1140,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101 Murah,cpl-10
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1163,7 +1163,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101 Murah,cpl-10
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan LACOSTE.<br/>Kode : CPL 101<br/>Warna : COKLAT<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Panjang Anak Laki-Laki - CPS 081 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 081<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1176,8 +1176,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101 Murah,cpl-10
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Ukuran 2 ~ 8, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-101.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 101,Rp 78.900,Rp 90.900,Rp 12.000,CPL 101,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105 Murah,cpl-105,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU NAVY, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-081.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Panjang Anak Laki-Laki - CPS 081,Rp 104.900,Rp 84.900,Rp 93.900,CPS 081,Baru
+Jual Overall Pendek Bayi Laki-Laki - CPL 703 Murah,cpl-703,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1202,7 +1202,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105 Murah,cpl-10
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1225,7 +1225,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105 Murah,cpl-10
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan LACOSTE.<br/>Kode : CPL 105<br/>Warna : BIRU NAVY MERAH<br/>Bahan : LACOSTE<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Overall Pendek Bayi Laki-Laki - CPL 703 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 703<br/>Warna : MERAH BATA<br/>Bahan : COTTON<br/>Ukuran : 12BLN ~ 36BLN<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1238,8 +1238,8 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105 Murah,cpl-10
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan LACOSTE, Ukuran 2 ~ 8, Warna BIRU NAVY MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-105.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 105,Rp 78.900,Rp 90.900,Rp 12.000,CPL 105,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106 Murah,cpl-106,"
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna MERAH BATA, Size 12BLN ~ 36BLN",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-703.jpg,-/-,-/-,-/-,-/-,-/-,Overall Pendek Bayi Laki-Laki - CPL 703,Rp 99.900,Rp 80.900,Rp 89.900,CPL 703,Baru
+Jual T Shirt Baby Lengan Pendek Bayi Laki-Laki - CSG 255 Murah,csg-255,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1264,7 +1264,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106 Murah,cpl-10
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1287,7 +1287,7 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106 Murah,cpl-10
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPL 106<br/>Warna : MERAH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>T Shirt Baby Lengan Pendek Bayi Laki-Laki - CSG 255 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSG 255<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : AS<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1300,252 +1300,4 @@ Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106 Murah,cpl-10
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-106.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPL 106,Rp 78.900,Rp 90.900,Rp 12.000,CPL 106,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 052 Murah,cps-052,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 052 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 052<br/>Warna : ABU MISTY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-052.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 052,Rp 79.900,Rp 91.900,Rp 12.000,CPS 052,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 049 Murah,cps-049,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 049 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 049<br/>Warna : BIRU NAVY<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-049.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 049,Rp 73.900,Rp 84.900,Rp 11.000,CPS 049,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 058 Murah,cps-058,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 058 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 058<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-058.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 058,Rp 73.900,Rp 84.900,Rp 11.000,CPS 058,Baru
-Jual Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 063 Murah,cps-063,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 063 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Anak Laki-Laki ini terbuat dari bahan COMBAD.<br/>Kode : CPS 063<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-27,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COMBAD, Ukuran 2 ~ 8, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cps-063.jpg,-/-,-/-,-/-,-/-,-/-,Kaos / T-Shirt Distro Casual Anak Laki-Laki & Balita - CPS 063,Rp 73.900,Rp 84.900,Rp 11.000,CPS 063,Baru
+     </div><!--/category-tab-->",2019-01-18,html,kaos-anak-laki-laki,catenzo-junior,kaos-anak-laki-laki,catenzo-junior,"Kaos Anak Laki-Laki Bahan COTTON, Warna BIRU, Size AS",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csg-255.jpg,-/-,-/-,-/-,-/-,-/-,T Shirt Baby Lengan Pendek Bayi Laki-Laki - CSG 255,Rp 84.900,Rp 68.900,Rp 75.900,CSG 255,Baru
